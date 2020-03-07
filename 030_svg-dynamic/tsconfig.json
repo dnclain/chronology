@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/js",
+        "declaration": true,
+        "declarationMap": true,        
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,        
+        "target": "es6",
+        "jsx": "react",
+        "jsxFactory": "Snabbdom.createElement"
+    }
+}
